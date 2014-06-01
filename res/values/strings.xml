@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Кнопочка</string>
+    <string name="Save_button">Сохранить</string>
+    <string name="Back_button">Назад</string>
+    <string name="Apply_button">Применить</string>
+    <string name="List">Список номеров для отправки</string>
+    <string name="Second_button">Set</string>
+    <string name="First_button">Danger</string>
+    <string name="Third">Третий номер</string>
+    <string name="Second">Второй номер</string>
+    <string name="First">Первый номер</string>
+    <string name="Texst">Текст сообщения</string>
+    <string name="provider_gps">GPS</string>
+    <string name="location_settings">Настройки GPS</string>
+
+</resources>
