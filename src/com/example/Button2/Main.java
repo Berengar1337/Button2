@@ -173,15 +173,15 @@ public class Main extends Activity {
                 .isProviderEnabled(LocationManager.GPS_PROVIDER));
     }
 
-    public void sendSMS2() {
+    public String sendSMS2() {
         Log.d("sample", messageTxt);
-
         phoneNo = mSettings.getString(APP_PREFERENCES_NAME1, "");
         sendSMS(phoneNo, messageTxt);
         phoneNo = mSettings.getString(APP_PREFERENCES_NAME2, "");
         sendSMS(phoneNo, messageTxt);
         phoneNo = mSettings.getString(APP_PREFERENCES_NAME3, "");
         sendSMS(phoneNo, messageTxt);
+        return messageTxt;
     }
 
 }
